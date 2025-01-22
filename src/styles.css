@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+}
+
+dialog[open] {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+dialog form {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+button {
+  margin-left: 1ch;
+}
